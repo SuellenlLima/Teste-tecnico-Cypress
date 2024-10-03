@@ -1,0 +1,16 @@
+{
+    "name": "gen-desafio-qa",
+    "version": "1.0.0",
+    "description": "Teste de automação de QA com Cypress e API pública",
+    "main": "index.js",
+    "scripts": {
+      "start": "http-server public -p 8080"
+    },
+    "devDependencies": {
+      "http-server": "^0.12.3",
+      "cypress": "^10.0.0"
+    },
+    "author": "Guilherme Martins",
+    "license": "MIT"
+  }
+  
