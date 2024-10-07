@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "http-server public -p 8080",
-        "test": "npm run test"
+        "test": "cypress open"
     },
     "devDependencies": {
         "cypress": "^12.2.0",
