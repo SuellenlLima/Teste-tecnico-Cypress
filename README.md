@@ -10,7 +10,11 @@ Criar testes automatizados utilizando o Cypress para verificar o comportamento d
 3. Inicialize o servidor usando o comendo: npm start
 4. Abra no navegador e acesse o link: http://localhost:8080/
 
-### Para abrir o Cypress
+### Para rodar os testes
+1. Abra o terminal na pasta do projeto.
+2. Para rodar os testes, execute o comando: npm run test
+
+### Para abrir o Cypress (Se desejar ver direto pela interface)
 1. Abra o terminal na pasta do projeto
 2. Instale o Cypress (se ainda não tiver feito isso)
 3. Abra o Cypress com o comando: npx Cypress open
@@ -18,9 +22,7 @@ Criar testes automatizados utilizando o Cypress para verificar o comportamento d
 5. Selecione o navegador: Eu usei os Chrome
 6. Separei os testes em Home e API
 
-### Para rodar os testes
-1. Abra o terminal na pasta do projeto.
-2. Para rodar os testes, execute o comando: npm run test
+
  
 ## Desafios Enfrentados
 - Tive dificuldade em entender como o código se conecta à API e a lógica de exibição das postagens. Após analisar o script.js e a estrutura do HTML, além de consultar a documentação do JavaScript e pesquisar sobre o funcionamento do fetch, consegui entender como as postagens são carregadas e simular um erro 404 com uma URL inválida.
