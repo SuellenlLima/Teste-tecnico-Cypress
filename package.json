@@ -4,7 +4,8 @@
     "description": "Teste de automação de QA com Cypress e API pública",
     "main": "index.js",
     "scripts": {
-        "start": "http-server public -p 8080"
+        "start": "http-server public -p 8080",
+        "test": "cypress run"
     },
     "devDependencies": {
         "cypress": "^12.2.0",
