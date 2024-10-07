@@ -27,6 +27,7 @@ Criar testes automatizados utilizando o Cypress para verificar o comportamento d
 ## Desafios Enfrentados
 - Tive dificuldade em entender como o código se conecta à API e a lógica de exibição das postagens. Após analisar o script.js e a estrutura do HTML, além de consultar a documentação do JavaScript e pesquisar sobre o funcionamento do fetch, consegui entender como as postagens são carregadas e simular um erro 404 com uma URL inválida.
 - Resolver erros e interpretar mensagens de retorno, o que exigiu a habilidade de mapear elementos da página. A presença de IDs no código facilitou esse mapeamento e a aplicação dos cenários de testes sugeridos. É nóis, dev! rs
+- Durante a configuração do ambiente local, achei que só trocando o comando no package seria suficiente, mas estava retornando que o comando npm não era reconhecido no terminal. Após várias tentativas de solucionar, incluindo reinstalar o Node.js, ajustar variáveis de ambiente e corrigir o PATH, consegui resolver e rodar os testes corretamente.
 
 ## Cenários de testes
 ### Interface Gráfica
