@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Teste Prático de Automação de QA com Cypress
 
 ## Bem-vindo!
@@ -71,3 +72,7 @@ npm run test
 
 
 Boa sorte! Se precisar de ajuda ou tiver dúvidas durante o processo, não hesite em entrar em contato.
+=======
+# cypress-tests
+Diz respeito a um teste tecnico que eu fiz para uma entrevista
+>>>>>>> a393f0065e5b44beaa3c1e04c87f50baf6cedfcc
