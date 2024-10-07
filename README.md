@@ -4,12 +4,23 @@ Criar testes automatizados utilizando o Cypress para verificar o comportamento d
 
 ## Como rodar os testes
 
-1. Clone este repositório.
-2. Abra o terminal e navegue até o diretório do projeto.
-3. Instale as dependências com o comando: npm install
-4. Para rodar os testes, use o comando: npm run test
-5. A aplicação estará disponível em http://localhost:8080.
-6. Para rodar os testes no Cypress, execute o comando: npm run test
+### Para iniciar o servidor
+1. Abra o terminal na pasta do projeto
+2. Instale as dependências do projeto (se ainda não tiver feito isso), usando o comando: npm install
+3. Inicialize o servidor usando o comendo: npm start
+4. Abra no navegador e acesse o link: http://localhost:8080/
+
+### Para abrir o Cypress
+1. Abra o terminal na pasta do projeto
+2. Instale o Cypress (se ainda não tiver feito isso)
+3. Abra o Cypress com o comando: npx Cypress open
+4. Selecione: E2E Testing
+5. Selecione o navegador: Eu usei os Chrome
+6. Separei os testes em Home e API
+
+### Para rodar os testes
+1. Abra o terminal na pasta do projeto.
+2. Para rodar os testes, execute o comando: npm run test
  
 ## Desafios Enfrentados
 - Tive dificuldade em entender como o código se conecta à API e a lógica de exibição das postagens. Após analisar o script.js e a estrutura do HTML, além de consultar a documentação do JavaScript e pesquisar sobre o funcionamento do fetch, consegui entender como as postagens são carregadas e simular um erro 404 com uma URL inválida.
